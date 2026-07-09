@@ -39,7 +39,7 @@ def programa_principal():
                 
         elif opcion == 4:
             fn.actualizar_disponibilidad(coleccion_peliculas)
-            print("Estados actualizados de manera global en base a las prioridades.")
+            print("Estados actualizados de manera global en base a las calificaciones.")
             
         elif opcion == 5:
             fn.mostrar_peliculas(coleccion_peliculas)

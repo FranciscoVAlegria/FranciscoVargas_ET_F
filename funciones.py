@@ -40,7 +40,7 @@ def agregar_pelicula(lista_peliculas):
     titulo = input("Ingrese el nombre de la película: ")
     
     if not validar_titulo(titulo):
-        print("Error: La descripción no puede estar vacía ni contener solo espacios.")
+        print("Error: El titulo de la pelicula no puede estar vacía ni contener solo espacios.")
         return
 
     try:
