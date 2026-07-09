@@ -64,7 +64,7 @@ def agregar_pelicula(lista_peliculas):
     nueva_pelicula = {
         "titulo": titulo,
         "duracion": duracion,
-        "calificaion": calificacion,
+        "calificacion": calificacion,
         "disponible": False
     }
     lista_peliculas.append(nueva_pelicula)
@@ -78,7 +78,7 @@ def buscar_pelicula(lista_peliculas, titulo_buscar):
 
 def actualizar_disponibilidad(lista_peliculas):
     for pelicula in lista_peliculas:
-        if pelicula["calificaion"] >= 7:
+        if pelicula["calificacion"] >= 7:
             pelicula["disponible"] = True
         else:
             pelicula["disponible"] = False
@@ -94,7 +94,7 @@ def mostrar_peliculas(lista_peliculas):
     for pelicula in lista_peliculas:
         print(f"Título: {pelicula['titulo']}")
         print(f"Duración: {pelicula['duracion']}")
-        print(f"Calificación: {pelicula['calificaion']}")
+        print(f"Calificación: {pelicula['calificacion']}")
         
         if pelicula["disponible"]:
             print("Estado: DISPONIBLE")

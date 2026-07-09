@@ -21,7 +21,7 @@ def programa_principal():
                 print(f"Película encontrada en la posición/índice: {posicion}")
                 print(f"Título: {pelicula_encontrada['titulo']}")
                 print(f"Duración: {pelicula_encontrada['duracion']} minutos")
-                print(f"Calificación: {pelicula_encontrada['calificaion']}")
+                print(f"Calificación: {pelicula_encontrada['calificacion']}")
                 estado_texto = "DISPONIBLE" if pelicula_encontrada['disponible'] else "NO RECOMENDADA"
                 print(f"Estado actual: {estado_texto}")
             else:
